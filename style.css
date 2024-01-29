@@ -1,0 +1,29 @@
+
+body{
+    margin-left: 50px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+h1{
+    text-shadow: 2px 2px cadetblue;
+    transition: all 0.3s;
+}
+h1:hover{
+    text-shadow: none;
+}
+#numInput{
+    color: black;
+    background-color: rgb(24, 223, 203);
+}
+#square1{
+    background-color: aqua;
+    color: rgb(26, 13, 13);
+}
+button{
+    background-color: aquamarine;
+    margin-left: 30px;
+    height: 30px;
+    width: 50px;
+    border: transparent;
+    filter:drop-shadow(0 3mm 4mm rgba(16, 218, 233, 0.457));
+}
